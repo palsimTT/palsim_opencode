@@ -1,0 +1,69 @@
+{
+    "meta_info": {
+        "matchName": "20180602 Example Match W vs M",
+        "gameNo": 2,
+        "rallyNo": 12,
+        "player0": {
+            "name": "W",
+            "video_position": "up"
+        },
+        "player1": {
+            "name": "M",
+            "video_position": "down"
+        },
+        "startPlayer": "player0",
+        "winSide": "player0",
+        "startTime": 742.656488,
+        "endTime": 748.303545
+    },
+    "rally_info": {
+        "stroke1": {
+            "player": "player0",
+            "strokeTech": "Reverse",
+            "ballPlacement": "BL",
+            "context": ""
+        },
+        "stroke2": {
+            "player": "player1",
+            "strokeTech": "Topspin",
+            "ballPlacement": "BL",
+            "context": "p0:Reverse->BL"
+        },
+        "stroke3": {
+            "player": "player0",
+            "strokeTech": "Topspin",
+            "ballPlacement": "BL",
+            "context": "p0:Reverse->BL | p1:Topspin->BL"
+        },
+        "stroke4": {
+            "player": "player1",
+            "strokeTech": "Attack",
+            "ballPlacement": "BL",
+            "context": "p0:Reverse->BL | p1:Topspin->BL | p0:Topspin->BL"
+        },
+        "stroke5": {
+            "player": "player0",
+            "strokeTech": "Block",
+            "ballPlacement": "ML",
+            "context": "p0:Reverse->BL | p1:Topspin->BL | p0:Topspin->BL | p1:Attack->BL"
+        },
+        "stroke6": {
+            "player": "player1",
+            "strokeTech": "Attack",
+            "ballPlacement": "BL",
+            "context": "p0:Reverse->BL | p1:Topspin->BL | p0:Topspin->BL | p1:Attack->BL | p0:Block->ML"
+        },
+        "stroke7": {
+            "player": "player0",
+            "strokeTech": "Topspin",
+            "ballPlacement": "FL",
+            "context": "p0:Reverse->BL | p1:Topspin->BL | p0:Topspin->BL | p1:Attack->BL | p0:Block->ML | p1:Attack->BL"
+        },
+        "stroke8": {
+            "player": "player1",
+            "strokeTech": "Others",
+            "ballPlacement": "",
+            "context": "p0:Reverse->BL | p1:Topspin->BL | p0:Topspin->BL | p1:Attack->BL | p0:Block->ML | p1:Attack->BL | p0:Topspin->FL"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "meta_config": {
+    "n_queries": 8,
+    "d_model": 64,
+    "n_heads": 8,
+    "fusion_hidden": 64,
+    "fusion_layers": 3,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0002,
+    "batch_size": 64,
+    "epochs": 200,
+    "patience": 30,
+    "ortho_weight": 0.15,
+    "n_features": 16
+  },
+  "base_config": {
+    "xgb": {
+      "max_depth": 10,
+      "learning_rate": 0.02,
+      "n_estimators": 1000,
+      "subsample": 0.8,
+      "colsample_bytree": 0.7,
+      "early_stopping_rounds": 50
+    }
+  },
+  "n_features": 16,
+  "seed": 42,
+  "test_auc": 0.6257113991081383,
+  "test_brier": 0.22857862019432496
+}

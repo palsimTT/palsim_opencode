@@ -1,0 +1,56 @@
+{
+  "meta_info": {
+    "matchName": "20190602 Example Match W vs M",
+    "gameNo": 1,
+    "rallyNo": 18,
+    "player0": {
+      "name": "W",
+      "video_position": "up"
+    },
+    "player1": {
+      "name": "M",
+      "video_position": "down"
+    },
+    "startPlayer": "player0",
+    "winSide": "player1",
+    "startTime": 722.137667,
+    "endTime": 727.32702
+  },
+  "rally_info": {
+    "stroke1": {
+      "player": "player0",
+      "strokeTech": "Pendulum",
+      "ballPlacement": "BS",
+      "context": "",
+      "analysis_file": "rally_analysis_output_test/20190602_G1_R18/stroke1_analysis.json"
+    },
+    "stroke2": {
+      "player": "player1",
+      "strokeTech": "Short",
+      "ballPlacement": "FS",
+      "context": "p0:Pendulum->BS",
+      "analysis_file": "rally_analysis_output_test/20190602_G1_R18/stroke2_analysis.json"
+    },
+    "stroke3": {
+      "player": "player0",
+      "strokeTech": "Short",
+      "ballPlacement": "MH",
+      "context": "p0:Pendulum->BS | p1:Short->FS",
+      "analysis_file": "rally_analysis_output_test/20190602_G1_R18/stroke3_analysis.json"
+    },
+    "stroke4": {
+      "player": "player1",
+      "strokeTech": "Topspin",
+      "ballPlacement": "FL",
+      "context": "p0:Pendulum->BS | p1:Short->FS | p0:Short->MH",
+      "analysis_file": "rally_analysis_output_test/20190602_G1_R18/stroke4_analysis.json"
+    },
+    "stroke5": {
+      "player": "player0",
+      "strokeTech": "Topspin",
+      "ballPlacement": "",
+      "context": "p0:Pendulum->BS | p1:Short->FS | p0:Short->MH | p1:Topspin->FL",
+      "analysis_file": "rally_analysis_output_test/20190602_G1_R18/stroke5_analysis.json"
+    }
+  }
+}

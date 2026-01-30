@@ -1,0 +1,61 @@
+{
+  "d_model": 64,
+  "n_heads": 4,
+  "dropout": 0.15,
+  "lr": 5e-05,
+  "alpha": 0.2,
+  "st_classes": 13,
+  "bp_classes": 9,
+  "st_to_idx": {
+    "Attack": 0,
+    "Block": 1,
+    "Chopping": 2,
+    "Flick": 3,
+    "Lob": 4,
+    "Others": 5,
+    "PimpleTech": 6,
+    "Push": 7,
+    "Short": 8,
+    "Slide": 9,
+    "Smash": 10,
+    "Topspin": 11,
+    "Twist": 12
+  },
+  "bp_to_idx": {
+    "BH": 0,
+    "BL": 1,
+    "BS": 2,
+    "FH": 3,
+    "FL": 4,
+    "FS": 5,
+    "MH": 6,
+    "ML": 7,
+    "MS": 8
+  },
+  "idx_to_st": {
+    "0": "Attack",
+    "1": "Block",
+    "2": "Chopping",
+    "3": "Flick",
+    "4": "Lob",
+    "5": "Others",
+    "6": "PimpleTech",
+    "7": "Push",
+    "8": "Short",
+    "9": "Slide",
+    "10": "Smash",
+    "11": "Topspin",
+    "12": "Twist"
+  },
+  "idx_to_bp": {
+    "0": "BH",
+    "1": "BL",
+    "2": "BS",
+    "3": "FH",
+    "4": "FL",
+    "5": "FS",
+    "6": "MH",
+    "7": "ML",
+    "8": "MS"
+  }
+}

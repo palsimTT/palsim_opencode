@@ -1,0 +1,63 @@
+{
+    "meta_info": {
+        "matchName": "20191005 Example Match W vs M",
+        "gameNo": 1,
+        "rallyNo": 1,
+        "player0": {
+            "name": "W",
+            "video_position": "down"
+        },
+        "player1": {
+            "name": "M",
+            "video_position": "up"
+        },
+        "startPlayer": "player0",
+        "winSide": "player1",
+        "startTime": 346.261557,
+        "endTime": 350.5183592
+    },
+    "rally_info": {
+        "stroke1": {
+            "player": "player0",
+            "strokeTech": "Pendulum",
+            "ballPlacement": "MS",
+            "context": ""
+        },
+        "stroke2": {
+            "player": "player1",
+            "strokeTech": "Short",
+            "ballPlacement": "MS",
+            "context": "p0:Pendulum->MS"
+        },
+        "stroke3": {
+            "player": "player0",
+            "strokeTech": "Short",
+            "ballPlacement": "MS",
+            "context": "p0:Pendulum->MS | p1:Short->MS"
+        },
+        "stroke4": {
+            "player": "player1",
+            "strokeTech": "Short",
+            "ballPlacement": "MH",
+            "context": "p0:Pendulum->MS | p1:Short->MS | p0:Short->MS"
+        },
+        "stroke5": {
+            "player": "player0",
+            "strokeTech": "Topspin",
+            "ballPlacement": "FL",
+            "context": "p0:Pendulum->MS | p1:Short->MS | p0:Short->MS | p1:Short->MH"
+        },
+        "stroke6": {
+            "player": "player1",
+            "strokeTech": "Topspin",
+            "ballPlacement": "FL",
+            "context": "p0:Pendulum->MS | p1:Short->MS | p0:Short->MS | p1:Short->MH | p0:Topspin->FL"
+        },
+        "stroke7": {
+            "player": "player0",
+            "strokeTech": "Block",
+            "ballPlacement": "",
+            "context": "p0:Pendulum->MS | p1:Short->MS | p0:Short->MS | p1:Short->MH | p0:Topspin->FL | p1:Topspin->FL"
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+  "meta_info": {
+    "matchName": "20180602 Example Match W vs M",
+    "gameNo": 2,
+    "rallyNo": 12,
+    "player0": {
+      "name": "W",
+      "video_position": "up"
+    },
+    "player1": {
+      "name": "M",
+      "video_position": "down"
+    },
+    "startPlayer": "player0",
+    "winSide": "player0",
+    "startTime": 742.656488,
+    "endTime": 748.303545
+  },
+  "rally_info": {
+    "stroke1": {
+      "player": "player0",
+      "strokeTech": "Reverse",
+      "ballPlacement": "BL",
+      "context": "",
+      "analysis_file": "rally_analysis_output_test/20180602_G2_R12/stroke1_analysis.json"
+    },
+    "stroke2": {
+      "player": "player1",
+      "strokeTech": "Topspin",
+      "ballPlacement": "BL",
+      "context": "p0:Reverse->BL",
+      "analysis_file": "rally_analysis_output_test/20180602_G2_R12/stroke2_analysis.json"
+    },
+    "stroke3": {
+      "player": "player0",
+      "strokeTech": "Topspin",
+      "ballPlacement": "BL",
+      "context": "p0:Reverse->BL | p1:Topspin->BL",
+      "analysis_file": "rally_analysis_output_test/20180602_G2_R12/stroke3_analysis.json"
+    },
+    "stroke4": {
+      "player": "player1",
+      "strokeTech": "Attack",
+      "ballPlacement": "BL",
+      "context": "p0:Reverse->BL | p1:Topspin->BL | p0:Topspin->BL",
+      "analysis_file": "rally_analysis_output_test/20180602_G2_R12/stroke4_analysis.json"
+    },
+    "stroke5": {
+      "player": "player0",
+      "strokeTech": "Block",
+      "ballPlacement": "ML",
+      "context": "p0:Reverse->BL | p1:Topspin->BL | p0:Topspin->BL | p1:Attack->BL",
+      "analysis_file": "rally_analysis_output_test/20180602_G2_R12/stroke5_analysis.json"
+    },
+    "stroke6": {
+      "player": "player1",
+      "strokeTech": "Attack",
+      "ballPlacement": "BL",
+      "context": "p0:Reverse->BL | p1:Topspin->BL | p0:Topspin->BL | p1:Attack->BL | p0:Block->ML",
+      "analysis_file": "rally_analysis_output_test/20180602_G2_R12/stroke6_analysis.json"
+    },
+    "stroke7": {
+      "player": "player0",
+      "strokeTech": "Topspin",
+      "ballPlacement": "FL",
+      "context": "p0:Reverse->BL | p1:Topspin->BL | p0:Topspin->BL | p1:Attack->BL | p0:Block->ML | p1:Attack->BL",
+      "analysis_file": "rally_analysis_output_test/20180602_G2_R12/stroke7_analysis.json"
+    },
+    "stroke8": {
+      "player": "player1",
+      "strokeTech": "Others",
+      "ballPlacement": "",
+      "context": "p0:Reverse->BL | p1:Topspin->BL | p0:Topspin->BL | p1:Attack->BL | p0:Block->ML | p1:Attack->BL | p0:Topspin->FL",
+      "analysis_file": "rally_analysis_output_test/20180602_G2_R12/stroke8_analysis.json"
+    }
+  }
+}
